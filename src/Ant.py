@@ -26,6 +26,7 @@ class Ant:
                 route.add(direction)
                 visited.add(next_position)
                 self.current_position = next_position
+        print("Found route of length {}".format(len(route.route)))
 
         return route
 
