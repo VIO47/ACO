@@ -2,8 +2,8 @@ import pickle
 import re
 import sys
 import traceback
-from Coordinate import Coordinate
-from PathSpecification import PathSpecification
+from src.Coordinate import Coordinate
+from src.PathSpecification import PathSpecification
 
 # Class containing the product distances. Can be either build from a maze, a product
 # location list and a PathSpecification or be reloaded from a file.

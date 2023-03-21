@@ -1,4 +1,4 @@
-from Direction import Direction
+from src.Direction import Direction
 
 # Class containing the pheromone information around a certain point in the maze
 class SurroundingPheromone:

@@ -83,3 +83,6 @@ class Coordinate:
         map[Direction.north] = Coordinate(0, -1)
         map[Direction.south] = Coordinate(0, 1)
         return map[dir]
+
+    def __hash__(self):
+        return hash((self.x, self.y))

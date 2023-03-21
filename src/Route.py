@@ -1,4 +1,4 @@
-from Direction import Direction
+from src.Direction import Direction
 
 # Class representing a route.
 class Route:
@@ -14,6 +14,9 @@ class Route:
     def add(self, dir):
         self.route.append(dir)
         return
+
+    def get_length(self):
+        return len(self.route)
 
     # Returns the length of the route
     # @return length of the route
