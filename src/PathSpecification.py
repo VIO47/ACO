@@ -1,7 +1,7 @@
 import re
 import traceback
 import sys
-from src.Coordinate import Coordinate
+from Coordinate import Coordinate
 
 # Specification of a path containing a start and end coordinate.
 class PathSpecification:

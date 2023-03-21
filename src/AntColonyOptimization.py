@@ -1,6 +1,6 @@
 import numpy as np
 
-from src.Ant import Ant
+from Ant import Ant
 
 
 # Class representing the first assignment. Finds shortest path between two points in a maze according to a specific
@@ -39,7 +39,8 @@ class AntColonyOptimization:
                     shortest_route_length = route_length
                     shortest_route = route
 
-            self.maze.add_pheromone_routes(ant_routes, self.q)
             self.maze.evaporate(self.evaporation)
+            self.maze.add_pheromone_routes(ant_routes, self.q)
+            
 
         return shortest_route

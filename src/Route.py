@@ -1,4 +1,4 @@
-from src.Direction import Direction
+from Direction import Direction
 
 # Class representing a route.
 class Route:
